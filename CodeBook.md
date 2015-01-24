@@ -8,7 +8,7 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 * 2. Column names were assigned to the resulting data set. Col 1 = Subject, col. 2 = Activity; all other names applied from the provided features.txt file.
 * 3. Data was subset to extract only the mean and standard deviation fields. This was accomplished using grepl. [N.B. "MeanFreq" columns were excluded, as I believe they represent a different claculation.]
 * 4. The IDs representing Activity were replaced with the descriptive (character) names of the activity using match. These values were derived from the activity_labels.txt file.
-* 5. A separate, tidy data set (with the average of each variable for each activity and each subject, per instruiction) was produced from this data using the plyr package. Specifically, ddply and colMeans were applied to the data.
+* 5. A separate, tidy data set (with the average of each variable for each activity and each subject, per instruction) was produced from this data using the plyr package. Specifically, ddply and colMeans were applied to the data.
 * 6. A comma-separated .txt file containing 180 observations of the followiong 68 variables was produced using write.csv (with row.names = FALSE, per instructions):
 
 * Subject : int
