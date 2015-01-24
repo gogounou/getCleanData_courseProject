@@ -11,6 +11,7 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 * 5. A separate, tidy data set (with the average of each variable for each activity and each subject, per instruction) was produced from this data using the plyr package. Specifically, ddply and colMeans were applied to the data.
 * 6. A comma-separated .txt file containing 180 observations of the followiong 68 variables was produced using write.csv (with row.names = FALSE, per instructions):
 
+
 * Subject : int
 * Activity : char
 * tBodyAcc-mean()-X : num
